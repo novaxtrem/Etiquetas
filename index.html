@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Monitores</legend>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="marcaProducto">Marca</label>
+                <div class="col-md-4">
+                    <select id="marcaProducto" name="marcaProducto" class="form-control">
+              <option value="DELL">DELL</option>
+              <option value="HP">HP</option>
+            </select>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="modelo">Modelo</label>
+                <div class="col-md-4">
+                    <input id="modelo" name="modelo" type="text" placeholder="modelo" class="form-control input-md">
+
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="resolucion">Resolución</label>
+                <div class="col-md-4">
+                    <select id="resolucion" name="resolucion" class="form-control">
+              <option value="HD 1280 x 720">HD 1280 x 720</option>
+              <option value="FULL 1920 x 1080">FULL 1920 x 1080</option>
+              <option value="QUAD HD 2560 x 1440">QUAD HD 2560 x 1440</option>
+            </select>
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="pulgadas">Pulgadas</label>
+                <div class="col-md-4">
+                    <select id="pulgadas" name="pulgadas" class="form-control">
+              <option value="19'">19''</option>
+              <option value="20'">20''</option>
+              <option value="22'">22''</option>
+              <option value="24">24''</option>
+            </select>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="imprimir">imprimir</label>
+                <div class="col-md-4">
+                    <button id="imprimir" name="imprimir" class="btn btn-primary">Listo el pollo</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
