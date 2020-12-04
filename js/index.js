@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function levantarInfoMonitorEImprimir() {
     var resolucion = $("#resolucion").find('option:selected').val();
-    console.log(resolucion);
+    alert(resolucion);
 }
