@@ -20,7 +20,8 @@
     padding: 10px;
     border: 2px rgb(207, 13, 13) solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    max-width: 400px;
+    max-height: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;

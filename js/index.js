@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         pulgadas = $("#pulgadasProducto").find('option:selected').val();
         precio = $("#precioProducto").val();
 
-        $("#portaMarcaPulgadas").text(marca + " " + pulgadas);
-        $("#portaModelo").text(modelo);
-        $("#portaResolucion").text(resolucion);
+        $("#portaMarcaPulgadas").text("Monitor: " + marca + " " + pulgadas);
+        $("#portaModelo").text("modelo: " + modelo);
+        $("#portaResolucion").text("resolucion: " + resolucion);
 
         $("#portaPrecio").text(precio);
         var divToPrint = document.getElementById('DivIdToPrint');
