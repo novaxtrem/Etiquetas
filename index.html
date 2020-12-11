@@ -13,65 +13,66 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
-
 </head>
 
 <body>
+
+    <div></div>
+
     <div class="split left">
         <div class="centered">
+
             <form class="form-horizontal">
                 <fieldset>
+
                     <!-- Form Name -->
                     <legend>Monitores</legend>
+
                     <!-- Select Basic -->
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="marcaProducto">Marca</label>
                         <div class="col-md-4">
                             <select id="marcaProducto" name="marcaProducto" class="form-control">
-                                    <option value="DELL">DELL</option>
-                                    <option value="HP">HP</option>
-                                    <option value="VARIOS">VARIOS</option>
-                                </select>
+              <option value="DELL">DELL</option>
+              <option value="HP">HP</option>
+            </select>
                         </div>
                     </div>
+
                     <!-- Text input-->
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="modelo">Modelo</label>
                         <div class="col-md-4">
-                            <input id="modeloProducto" name="modelo" type="text" placeholder="modelo" class="form-control input-md">
+                            <input id="modelo" name="modelo" type="text" placeholder="modelo" class="form-control input-md">
+
                         </div>
                     </div>
+
                     <!-- Select Basic -->
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="resolucion">Resolución</label>
                         <div class="col-md-4">
-                            <select id="resolucionProducto" name="resolucion" class="form-control">
-                                    <option value="HD 1280 x 720">HD 1280 x 720</option>
-                                    <option value="FULL 1920 x 1080">FULL 1920 x 1080</option>
-                                    <option value="QUAD HD 2560 x 1440">QUAD HD 2560 x 1440</option>
-                                </select>
+                            <select id="resolucion" name="resolucion" class="form-control">
+              <option value="HD 1280 x 720">HD 1280 x 720</option>
+              <option value="FULL 1920 x 1080">FULL 1920 x 1080</option>
+              <option value="QUAD HD 2560 x 1440">QUAD HD 2560 x 1440</option>
+            </select>
                         </div>
                     </div>
+
                     <!-- Select Basic -->
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="pulgadas">Pulgadas</label>
                         <div class="col-md-4">
-                            <select id="pulgadasProducto" name="pulgadas" class="form-control">
-                                    <option value="19'">19''</option>
-                                    <option value="20'">20''</option>
-                                    <option value="22'">22''</option>
-                                    <option value="24">24''</option>
-                                </select>
+                            <select id="pulgadas" name="pulgadas" class="form-control">
+              <option value="19'">19''</option>
+              <option value="20'">20''</option>
+              <option value="22'">22''</option>
+              <option value="24">24''</option>
+            </select>
                         </div>
                     </div>
-                    <!-- Text input-->
-                    <div class="form-group">
-                        <label class="col-md-4 control-label" for="Precio">Precio</label>
-                        <div class="col-md-4">
-                            <input id="precioProducto" name="precio" type="text" placeholder="precio" class="form-control input-md">
-                        </div>
-                    </div>
+
                     <!-- Button -->
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="imprimir">imprimir</label>
@@ -79,21 +80,30 @@
                             <button id="imprimir" type="button" name="imprimir" class="btn btn-primary">Listo el pollo</button>
                         </div>
                     </div>
+
+
+
                 </fieldset>
             </form>
         </div>
     </div>
-    <div id="DivIdToPrint" class="split right">
+
+    <div class="split right">
         <div class="centered">
+
             <div class="card">
-                <img id="logo" src="img/imagelogo.png" style="width:10%">
-                <h3 id="portaMarcaPulgadas"></h3>
-                <h3 id="portaModelo">modelo:</h3>
-                <h3 id="portaResolucion"></h3>
-                <h1> <span id="portaPrecio"></span> USD</h1>
+                <img id="logo" src="img/imagelogo.png" style="width:20%">
+                <h1>MONITOR DELL 24''</h1>
+                <h3>modelo: J23</h3>
+                <h3>resolucion:<span></span> FULL HD 1280x720</span>
+                </h3>
+
+                <h1>269 USD</h1>
             </div>
         </div>
     </div>
+
+
 </body>
 
 </html>
